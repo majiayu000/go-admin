@@ -339,3 +339,6 @@ The `go-admin` project has always been developed in the GoLand integrated develo
 [MIT](https://github.com/go-admin-team/go-admin/blob/master/LICENSE.md)
 
 Copyright (c) 2022 wenjianzhang
+
+# go run main.go migrate -c config/settings.dev.yml
+# go run main.go  server -c config/settings.dev.yml
