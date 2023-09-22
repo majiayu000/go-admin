@@ -181,9 +181,3 @@ func (s *SysUserById) GetId() interface{} {
 func (s *SysUserById) GenerateM() (common.ActiveRecord, error) {
 	return &models.SysUser{}, nil
 }
-
-// PassWord 密码
-type PassWord struct {
-	NewPassword string `json:"newPassword" vd:"len($)>0"`
-	OldPassword string `json:"oldPassword" vd:"len($)>0"`
-}
